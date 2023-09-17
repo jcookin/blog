@@ -1,5 +1,7 @@
 # Experientialism
 
+[Why this blog?](./README.md)
+
 # Knowledge
 
 - [Software](./software/README.md)
