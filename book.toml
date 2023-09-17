@@ -1,0 +1,6 @@
+[book]
+authors = ["Jake Cook"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Experientialism"
