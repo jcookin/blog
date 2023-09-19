@@ -1,4 +1,4 @@
-# Why this blog?
+# Why this site?
 
 To capture what makes my life the life it is.
 
