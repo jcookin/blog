@@ -3,11 +3,8 @@ version: "3.8"
 services:
   blog:
     build:
-      # args:
-      #   buildno: 1 ## TODO: increment build number in github action? & update Dockerfile to use
       context: https://github.com/jcookin/blog.git
-      # dockerfile: Dockerfile
-    image: blog:v1
+    image: blog:latest
     container_name: blog
     expose:
       - "80"
