@@ -7,6 +7,7 @@ Utilizes a folder-based markdown structure which generates an html book-like rea
 ## Configuring a server
 
 1. Copy the `compose.yaml` file to the server
+   1. NOTE: for ARM based machines, be sure to point the docker compose file to `Dockerfile.arm`
 2. Configure a cronjob to run as often as desired to re-build and re-start the docker-compose items
 
     ```sh
