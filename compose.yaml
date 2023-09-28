@@ -4,6 +4,7 @@ services:
   blog:
     build:
       context: https://github.com/jcookin/blog.git
+      # dockerfile: Dockerfile.arm  # uncomment for ARM
     image: blog:latest
     container_name: blog
     expose:
