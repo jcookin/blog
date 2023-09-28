@@ -10,3 +10,7 @@ default-theme = "navy"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/jcookin/blog"
 git-repository-icon = "fa-github"
+
+[output.html.print]
+enable = false    # include support for printable output
+page-break = false # insert page-break after each chapter
