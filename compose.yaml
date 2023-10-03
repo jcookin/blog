@@ -3,7 +3,7 @@ version: "3.8"
 services:
   blog:
     build:
-      context: https://github.com/jcookin/blog.git
+      context: https://github.com/jcookin/blog.git # replace with "." for local testing
       # dockerfile: Dockerfile.arm  # uncomment for ARM
     image: blog:latest
     container_name: blog
