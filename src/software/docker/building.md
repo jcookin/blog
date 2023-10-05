@@ -20,7 +20,7 @@ export BUILDKIT_PROGRESS=plain
 
 Docker compose utilizes `compose.yaml` or `docker-compose.yaml` files to start 1+ containers in a simple way.
 
-### git repo as build ontext
+### git repo as build context
 
 > Docker 24.0.4+ (does not work on at least docker 20)
 >
