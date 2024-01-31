@@ -10,6 +10,7 @@
   - [Docker](./software/docker/README.md)
     - [Building](./software/docker/building.md)
     - [Running](./software/docker/running.md)
+    - [Observations](./software/docker/observations.md)
   - [cloud](./software/cloud/README.md)
 
 # Experiences

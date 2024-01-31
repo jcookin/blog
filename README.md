@@ -27,3 +27,16 @@ Utilizes a folder-based markdown structure which generates an html book-like rea
     ```sh
     docker compose up --build -d
     ```
+
+## Developing
+
+Install [nix-shell](https://nixos.org/manual/nix/stable/installation/installing-binary#multi-user-installation)
+
+Recommended: install Nix Environment Selector Plugin for VSCode
+`arrterian.nix-env-selector`
+
+Start a terminal session with the `shell.nix` file
+
+```bash
+nix-shell
+```
