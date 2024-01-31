@@ -1,4 +1,4 @@
-FROM peaceiris/mdbook:v0.4.36 AS build
+FROM peaceiris/mdbook:v0.4.34 AS build
 
 WORKDIR /workspace
 
