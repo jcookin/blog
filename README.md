@@ -19,7 +19,7 @@ Utilizes a folder-based markdown structure which generates an html book-like rea
     Add the following line
 
     ```sh
-    0 0 * * * cd /path/to/compose.yaml && docker compose up --build -d
+    0 0 * * * cd /path/to/compose.yaml && docker compose up --build -d && docker image prune -f
     ```
 
 3. The server can be manually started the first time (also validates the project can build and start)
@@ -32,7 +32,7 @@ Utilizes a folder-based markdown structure which generates an html book-like rea
 
 Install [nix-shell](https://nixos.org/manual/nix/stable/installation/installing-binary#multi-user-installation)
 
-Recommended: install Nix Environment Selector Plugin for VSCode
+Optional: install Nix Environment Selector Plugin for VSCode
 `arrterian.nix-env-selector`
 
 Start a terminal session with the `shell.nix` file
