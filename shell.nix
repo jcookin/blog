@@ -3,6 +3,6 @@ with pkgs;
 
 pkgs.mkShell {
 
-  nativeBuildInputs = with pkgs.buildPackages; [ mdbook-0.4.36 ];
+  nativeBuildInputs = with pkgs.buildPackages; [ mdbook ];
 
 }
